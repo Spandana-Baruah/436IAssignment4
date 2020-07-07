@@ -28,7 +28,7 @@ app.use('/messages', messagesRouter);
 
 //connect to mongo db
 const mongoose = require('mongoose')
-mongoose.connect('mongodb+srv://m001-student:m001-mongodb-basics@cluster0-uqtr1.mongodb.net/DATABASE_MESSAGELIST')
+mongoose.connect('mongodb+srv://m001-student:m001-mongodb-basics@cluster0-uqtr1.mongodb.net/DATABASE_MESSAGELIST', { useNewUrlParser: true })
   .then( () => {
     console.log('Connection to the Atlas Cluster is successful!!!!')
   })
