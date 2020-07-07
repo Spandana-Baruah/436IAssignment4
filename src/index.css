@@ -1,0 +1,87 @@
+body {
+
+  animation-name: animation;
+  animation-duration: 60s;
+}
+
+@keyframes animation {
+  0% {
+    background-color: #9dab86;
+  }
+
+  10% {
+    background-color: #eadca6;
+  }
+
+  20% {
+    background-color: #ebcbae;
+  }
+
+  30% {
+    background-color: #d9bf77;
+  }
+
+  40% {
+    background-color: #9dab86;
+  }
+
+  50% {
+    background-color: #eadca6;
+  }
+
+  60% {
+    background-color: #ebcbae;
+  }
+
+  70% {
+    background-color: #d9bf77;
+  }
+
+  80% {
+    background-color: #9dab86;
+  }
+
+  90% {
+    background-color: #eadca6;
+  }
+
+  100% {
+    background-color: #ebcbae;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  color: green;
+  font-family: cursive;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  font-family: cursive;
+  text-align: center;
+}
+
+ul {
+  color: maroon;
+  font-family: cursive;
+}
+
+.add-message {
+  animation-name: animation;
+  animation-duration: 60s;
+  border-image: none;
+  border-style: none;
+  color: maroon;
+  text-decoration: underline;
+  font-family: cursive;
+}
+
+.message-text {
+  width: 90%
+}
